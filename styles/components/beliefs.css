@@ -1,0 +1,112 @@
+.beliefs {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.beliefs__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* .beliefs__content:not(:first-child) {
+  gap: 1rem;
+} */
+
+.beliefs__title {
+  font-size: var(--size-2xl);
+  color: var(--clr-light);
+}
+
+.beliefs__subtitle {
+  font-size: var(--size-sm);
+  color: var(--clr-slate400);
+  align-self: self-start;
+}
+
+.beliefs__ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding-left: 1em;
+  flex: 1;
+  align-items: flex-start;
+}
+
+.beliefs__list {
+  font-size: var(--size-xs);
+  color: var(--clr-slate600);
+  max-width: 75ch;
+}
+
+.beliefs__anchor {
+  color: var(--clr-light);
+}
+
+/* xs */
+@media (min-width: 475px) {
+  .beliefs {
+    gap: 1.5rem;
+  }
+
+  .beliefs__content {
+    gap: 1.5rem;
+  }
+
+  .beliefs__title {
+    font-size: var(--size-3xl);
+  }
+
+  .beliefs__subtitle {
+    font-size: var(--size-base);
+  }
+
+  .beliefs__list {
+    font-size: var(--size-base);
+  }
+}
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+@media (min-width: 1024px) {
+  .beliefs__title {
+    font-size: var(--size-4xl);
+  }
+
+  .beliefs__subtitle {
+    font-size: var(--size-lg);
+  }
+
+  .beliefs__list {
+    font-size: var(--size-lg);
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .beliefs {
+    gap: 2rem;
+  }
+
+  .beliefs__title {
+    font-size: var(--size-5xl);
+  }
+
+  .beliefs__subtitle {
+    font-size: var(--size-xl);
+  }
+
+  .beliefs__list {
+    font-size: var(--size-xl);
+  }
+}
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
