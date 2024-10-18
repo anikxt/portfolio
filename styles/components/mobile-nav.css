@@ -26,7 +26,7 @@
   font-size: var(--size-sm);
   text-decoration: none;
   font-weight: 600;
-  color: var(--clr-slate600);
+  color: var(--clr-slate500);
   letter-spacing: -0.05em;
   transition: color 0.3s;
 }
@@ -36,7 +36,7 @@
 }
 
 .mobile-nav__link-line {
-  border: 1px solid var(--clr-slate800);
+  border: 1px solid var(--clr-slate700);
   padding-right: 1.5em;
 }
 
@@ -44,7 +44,7 @@
   display: block;
   width: var(--size-xl);
   height: var(--size-xl);
-  color: var(--clr-slate600);
+  color: var(--clr-slate500);
 }
 
 .mobile-nav__btn {
